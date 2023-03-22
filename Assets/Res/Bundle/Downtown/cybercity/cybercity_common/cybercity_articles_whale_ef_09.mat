@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cybercity_articles_whale_ef_09
+  m_Shader: {fileID: 4800000, guid: b4213e7cfe6f175428762faeff916218, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _MASKENABLE_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: c03e2478c77053448b0c089c4b87f69f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c03e2478c77053448b0c089c4b87f69f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _BlendOp: 0
+    - _Cull: 1
+    - _CullMode: 0
+    - _DestBlend: 1
+    - _MainTex_ar: 0
+    - _MaskEnable: 0
+    - _SrcBlend: 5
+    - _ZAlways: 4
+    - _ZWrite: 1
+    - _light_color: 1.2
+    - _mask_tex_ar: 0
+    - _mask_tex_offon: 0
+    m_Colors:
+    - _BaseColor: {r: 2.297397, g: 2.297397, b: 2.297397, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTex_Color: {r: 1.5336025, g: 1.5336025, b: 1.5336025, a: 1}
+  m_BuildTextureStacks: []

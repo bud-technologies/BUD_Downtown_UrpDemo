@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewRender_Grass_Default
+  m_Shader: {fileID: 4800000, guid: f2194ea9f2968474d957c624a07db918, type: 3}
+  m_ValidKeywords:
+  - _EMISSION_MAP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AnimStrength: 1
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _Emission: 0
+    - _EmissionOn: 0
+    - _FresnelBias: 0.0136
+    - _FresnelPower: 4.78
+    - _FresnelScale: 0.35
+    - _GIScale: 0.2
+    - _GrassAnimOn: 0
+    - _LightAndShadeOffset: 1
+    - _NoiseFrequency: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ScatteringOn: 0
+    - _ScatteringPow: 4
+    - _ScatteringScale: 0.3
+    - _SpecularPow: 2
+    - _SpecularScale: 0.44
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UVYPow: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AnimSpeed: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PosOffsetRange: {r: -1, g: 1, b: 0, a: 0}
+    - _ScatteringColor: {r: 0.39037788, g: 0.53773576, b: 0.18009076, a: 1}
+    - _WindData: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

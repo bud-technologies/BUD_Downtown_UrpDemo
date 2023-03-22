@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &794359476583370719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4476357737467156634}
+  m_Layer: 0
+  m_Name: canyon_articles_qigan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476357737467156634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794359476583370719}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3284614874046677614}
+  - {fileID: 5414392871285696254}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &3701014154207724002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2800846991745358036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8614491927154362885, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+--- !u!64 &4343747880565303647
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4640986962546949188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5730750416096306815, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+--- !u!1001 &3035411503969281413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4476357737467156634}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2074081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2074081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2074081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.8421607
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.9899998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.186973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9996267
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.027322162
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52df7b8a31416824d94223557e9e6873, type: 2}
+    - target: {fileID: 919132149155446097, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+      propertyPath: m_Name
+      value: canyon_articles_qigan_02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+--- !u!1 &2800846991745358036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+  m_PrefabInstance: {fileID: 3035411503969281413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3284614874046677614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 300c8b56314dadd4180b85061436fcda, type: 3}
+  m_PrefabInstance: {fileID: 3035411503969281413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5524070509380714773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4476357737467156634}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2074081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2074081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2074081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.8421607
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.9899998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.186973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9996267
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.027322162
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3f5fe66dc9fec1d44a274f5e1896c391, type: 2}
+    - target: {fileID: 919132149155446097, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+      propertyPath: m_Name
+      value: canyon_articles_qigan_01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+--- !u!1 &4640986962546949188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+  m_PrefabInstance: {fileID: 5524070509380714773}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5414392871285696254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: faba485ea8b37a841a6701a8b23504cc, type: 3}
+  m_PrefabInstance: {fileID: 5524070509380714773}
+  m_PrefabAsset: {fileID: 0}

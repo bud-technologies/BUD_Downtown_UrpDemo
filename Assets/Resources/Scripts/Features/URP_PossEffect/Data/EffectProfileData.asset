@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1882300613975839676
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: GamePossEffect
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass:UnityEngine.Experiemntal.Rendering.Universal:GamePossEffect
+  active: 1
+  m_AdvancedMode: 0
+  shaderValue:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  filterMode:
+    m_OverrideState: 0
+    m_Value: 1
+  sceneTypeParameter:
+    m_OverrideState: 0
+    m_Value: 2
+  colorTypeParameter:
+    m_OverrideState: 1
+    m_Value: 1
+  ColorSet:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  indensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 20
+  blurCount:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+  downSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: EffectProfileData
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 3614645029298361662}
+--- !u!114 &905924163897225469
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: GamePossEffect
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass:UnityEngine.Experiemntal.Rendering.Universal:GamePossEffect
+  active: 1
+  m_AdvancedMode: 0
+  shaderValue:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  filterMode:
+    m_OverrideState: 0
+    m_Value: 1
+  sceneTypeParameter:
+    m_OverrideState: 0
+    m_Value: 2
+  colorTypeParameter:
+    m_OverrideState: 1
+    m_Value: 1
+  ColorSet:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  indensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 20
+  blurCount:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+  downSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+--- !u!114 &3614645029298361662
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d6568530980b874296dd17f48693ff5, type: 3}
+  m_Name: GamePossEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  shaderValue:
+    m_OverrideState: 1
+    m_Value: {fileID: 4800000, guid: 58d92b3f11d52644aaa852ebf7a41b93, type: 3}
+  filterMode:
+    m_OverrideState: 1
+    m_Value: 1
+  sceneTypeParameter:
+    m_OverrideState: 1
+    m_Value: 2
+  colorTypeParameter:
+    m_OverrideState: 1
+    m_Value: 1
+  ColorSet:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  indensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 20
+  blurCount:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+  downSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+--- !u!114 &5600300262475394104
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: GamePossEffect
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass:UnityEngine.Experiemntal.Rendering.Universal:GamePossEffect
+  active: 1
+  m_AdvancedMode: 0
+  shaderValue:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  filterMode:
+    m_OverrideState: 0
+    m_Value: 1
+  sceneTypeParameter:
+    m_OverrideState: 0
+    m_Value: 2
+  colorTypeParameter:
+    m_OverrideState: 0
+    m_Value: 0
+  ColorSet:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  indensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 20
+  blurCount:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4
+  downSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 4

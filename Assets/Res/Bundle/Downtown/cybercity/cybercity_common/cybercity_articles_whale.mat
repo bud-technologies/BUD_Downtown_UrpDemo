@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cybercity_articles_whale
+  m_Shader: {fileID: 4800000, guid: 4e1b4142aa198384c890659ac5a1d98a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alphatex:
+        m_Texture: {fileID: 2800000, guid: 2ecf3cd18b040344fb6d9c35826da914, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlicthTex:
+        m_Texture: {fileID: 2800000, guid: c57f4f5bd55135a4580d6b312c61c36c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NornalMap:
+        m_Texture: {fileID: 2800000, guid: d29531474f3a624439d7889621103aae, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _Scanline2tex:
+        m_Texture: {fileID: 2800000, guid: 934942965f960ee45aeb599c4a99a881, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Scanlinetex:
+        m_Texture: {fileID: 2800000, guid: c57f4f5bd55135a4580d6b312c61c36c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Scanlinetex1:
+        m_Texture: {fileID: 2800000, guid: c57f4f5bd55135a4580d6b312c61c36c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Scanlinetex2:
+        m_Texture: {fileID: 2800000, guid: dc6aa1a3be4f13c4aabca6a99b714b0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wireframe:
+        m_Texture: {fileID: 2800000, guid: 934942965f960ee45aeb599c4a99a881, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _Alpha2: 0.01
+    - _AlphaCutoff: 0.5
+    - _CullMode1: 2
+    - _Dst1: 10
+    - _Float0: 0
+    - _Float1: 1
+    - _Glicth2Tilling: 1
+    - _GlicthInvert: 0.4
+    - _GlicthPower: -0.6
+    - _GlicthSpeed: 1.5
+    - _GlicthTilling: 1
+    - _Glicthfreq: 0
+    - _Glicthtilling: -0.5
+    - _NornalMap_int: 1
+    - _Rim2Bias: 0
+    - _Rim2Power: 0.2
+    - _Rim2Scale: 2
+    - _Rim3Bias: 0
+    - _Rim3Power: 4.5
+    - _Rim3Scale: 1
+    - _RimBias: 0
+    - _RimPower: 2
+    - _RimScale: 1
+    - _Scanline1Invert: 0.6
+    - _Scanline1Power: 1.5
+    - _Scanline1Speed: -0.5
+    - _Scanline1Tilling: 0.2
+    - _Scanline2Invert: 1
+    - _Scanline2Power: 1
+    - _Scanline2Speed: -3
+    - _Scanline2Tilling: 80
+    - _ScanlineInvert: 1
+    - _ScanlineInvert1: 1
+    - _ScanlinePower: 1.2
+    - _ScanlinePower1: 1
+    - _ScanlineSpeed: 1
+    - _ScanlineTilling: 5
+    - _Scanlinetex1_int: -0.6
+    - _Scanlinetex2_int: 1
+    - _WireframeIntensity: 3
+    - _ZWrite1: 0
+    - __dirty: 0
+    - _borderRimBias: 0
+    - _borderRimPower: 4.5
+    - _borderRimScale: 1
+    - _fkickcontrol: 0.3
+    - _flacking2Tilling: 200
+    - _flackingTilling: 200
+    - _intensity_time: 0.1
+    - _strength: 1
+    - _waichengRim2Bias: 0
+    - _waichengRimPower: 0.2
+    - _waichengRimScale: 2
+    - _zwirtemode: 0
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.25520545, g: 0, b: 2.5223134, a: 1}
+    - _Scanlinetex1_color: {r: 0, g: 0.4087237, b: 1.7099648, a: 1}
+    - _Vertexoffiset: {r: 100, g: 0, b: 0, a: 0}
+    - _bianyuan_fresnel_color: {r: 1, g: 1, b: 1, a: 0}
+    - _deviation_angle: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

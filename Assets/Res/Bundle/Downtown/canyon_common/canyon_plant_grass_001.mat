@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: canyon_plant_grass_001
+  m_Shader: {fileID: 4800000, guid: f2194ea9f2968474d957c624a07db918, type: 3}
+  m_ValidKeywords:
+  - _EMISSION_MAP
+  - _PLANT_ANIM_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: dd11ddb204d8cc54eaf1baddae59641f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b445d652d010dc845b4f219dfc6cfe69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Maintex:
+        m_Texture: {fileID: 2800000, guid: dd11ddb204d8cc54eaf1baddae59641f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AnimStrength: 0.103
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _Emission: 0
+    - _EmissionOn: 0
+    - _FresnelBias: 0.0136
+    - _FresnelPower: 4.78
+    - _FresnelScale: 0.35
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradientPosition: 0
+    - _GradientRange: 6
+    - _GrassAnimOn: 1
+    - _LightAndShadeOffset: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseFrequency: 1
+    - _NormalCenterPos: 2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ScatteringOn: 0
+    - _ScatteringPow: 4
+    - _ScatteringScale: 0.3
+    - _ShadowIntensity: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _UVSec: 0
+    - _UVYPow: 1
+    - _ZWrite: 0
+    - __dirty: 0
+    - _intensity_01: 1
+    - _intensity_02: 0.08
+    - _intensity_time: 1
+    - _strength: 1
+    - _threshold: 0.6
+    m_Colors:
+    - _AnimSpeed: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 0.8686234, b: 0.4669811, a: 1}
+    - _Color: {r: 0.7921569, g: 0.5372549, b: 0.24313726, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PosOffsetRange: {r: -1, g: 1, b: 0, a: 0}
+    - _ScatteringColor: {r: 0.39037788, g: 0.53773576, b: 0.18009076, a: 1}
+    - _WindData: {r: 0, g: 0, b: 0, a: 0}
+    - _deviation_angle: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

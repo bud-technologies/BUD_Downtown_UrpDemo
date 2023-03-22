@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_SkyCloud(Low1)_Cloud_01
+  m_Shader: {fileID: 4800000, guid: e55bc8fd3851e5c478c4a832e7982f68, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _COLOR_CHANNEL_RR
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1.5, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNoise:
+        m_Texture: {fileID: 2800000, guid: 0664a1da46c851d4f9a6991af9897489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 0664a1da46c851d4f9a6991af9897489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MixTexA:
+        m_Texture: {fileID: 2800000, guid: 0664a1da46c851d4f9a6991af9897489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MixTexB:
+        m_Texture: {fileID: 2800000, guid: 7c8dbfb9b07443e45ad8604fd1906926, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondNoise:
+        m_Texture: {fileID: 2800000, guid: 7c8dbfb9b07443e45ad8604fd1906926, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 7c8dbfb9b07443e45ad8604fd1906926, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureMainNoise:
+        m_Texture: {fileID: 2800000, guid: 0664a1da46c851d4f9a6991af9897489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureMainNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 0664a1da46c851d4f9a6991af9897489, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b91986ac7f3972f42b1d74c18b376440, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSecondNoise:
+        m_Texture: {fileID: 2800000, guid: 7c8dbfb9b07443e45ad8604fd1906926, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex_SkyCloudLow_Cloud_04:
+        m_Texture: {fileID: 2800000, guid: 31d0b23109615fe46ac0d40e5af1ccab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCleaner: 0.16
+    - _AlphaCleaner1: 0
+    - _AlphaCleaner2: 0.54
+    - _AlphaContrast: 1.86
+    - _AlphaContrast1: 1
+    - _AlphaContrast2: 1.38
+    - _AlphaCutoff: 0.5
+    - _AlphaPower: 1.7
+    - _BumpScale: 1
+    - _CloudColorBrightness: 1.469
+    - _Color_Channel: 0
+    - _Contrast: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FadeContrast: 2.18
+    - _FadeDistance: 1239
+    - _FadeOut: 0.477
+    - _FadeOutPow: 1.74
+    - _Float0: 0.42
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MainAlphaCleaner1: 0.905
+    - _MainAlphaContrast1: 0.649
+    - _MainAlphaMax: 0.648
+    - _MainAlphaMin: 0.335
+    - _MainTilling: 6.06
+    - _MainTilling1: 0.1
+    - _Metallic: 0
+    - _MixTexARatio: 1
+    - _MixTexBRatio: 1
+    - _Mode: 0
+    - _NormalOffset: 3.24
+    - _NormalTilling: 2.7
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pow: 2.41
+    - _Radius: 900
+    - _SSSColorBrightness: 0.71
+    - _SSSConcentration: 8.11
+    - _SSSMul: 1
+    - _SSSOffset: 0.0974
+    - _Scale: 3.8
+    - _ScatterOffset: 0
+    - _SecondAlphaCleaner2: 0.861
+    - _SecondAlphaContrast2: 0.635
+    - _SecondAlphaMax: 0.851
+    - _SecondAlphaMin: 0.521
+    - _SecondTilling: 6.25
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Tiling: 3.31
+    - _Tiling1: 6.99
+    - _Tiling2: 9.19
+    - _Tiling3: 1
+    - _Tilling: 2.67
+    - _Tilling1: 0.1
+    - _Tilling2: 1.36
+    - _UVSec: 0
+    - _Use_SSSColor: 0
+    - _ZAlways: 4
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.9559735, g: 0.7681514, b: 0.41788515, a: 1}
+    - _CloudColor: {r: 0.98039216, g: 0.8902526, b: 0.6784314, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainSpeed: {r: 10.1, g: 10.3, b: 0, a: 0}
+    - _MixTexARange: {r: -1.06, g: 1, b: 0, a: 0}
+    - _MixTexAUVSpeed: {r: 5, g: 5, b: 0, a: 0}
+    - _MixTexBRange: {r: 0.58, g: 1, b: 0, a: 0}
+    - _MixTexBUVSpeed: {r: 0.5, g: 0.2, b: 0, a: 0}
+    - _SSS: {r: 3.137255, g: 1.3019608, b: 0.5803922, a: 1}
+    - _SSSColor: {r: 1, g: 0.7913669, b: 0.75, a: 0}
+    - _ScaColorA: {r: 0.9803922, g: 0.89019614, b: 0.6784314, a: 1}
+    - _ScaColorB: {r: 0.9803922, g: 0.89019614, b: 0.6784314, a: 1}
+    - _SecondSpeed: {r: 4.45, g: 16.29, b: 0, a: 0}
+    - _Speed: {r: 0, g: 0.01, b: 0.005, a: 0}
+    - _Speed1: {r: 0.01, g: 0.005, b: 0.001, a: 0}
+    - _Speed2: {r: 0.05, g: 0.01, b: 0.002, a: 0}
+    - _Tiling1_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling2_Offset: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: desert_building_house_03_02_w003
+  m_Shader: {fileID: 4800000, guid: 9b4f22afac777be4194beb79e41e4556, type: 3}
+  m_ValidKeywords:
+  - AOCOLORSET_COLOR
+  - _NORMAL_ON
+  m_InvalidKeywords:
+  - ENABLE_HQ_OFF
+  - _AO_OFFON_ON
+  - _SMOOTHNESS_OFFON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: b1d4df4357da58d4198f2f06c3b566b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: abcba2e8946987f4eb488184f95962db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emisson:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnergyLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b1d4df4357da58d4198f2f06c3b566b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 8190f1fcce9a3704f9d91bbc06993721, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: abcba2e8946987f4eb488184f95962db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mra_tex:
+        m_Texture: {fileID: 2800000, guid: 8190f1fcce9a3704f9d91bbc06993721, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - AOCOLORSET: 1
+    - ENABLE_HQ: 0
+    - _AO: 1
+    - _AO_Power: 1
+    - _AO_offon: 1
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Emission: 0
+    - _Emisson_int: 0
+    - _Fog_Distance_Fade_Contrast: 0.58
+    - _Fog_Distance_Fade_Power: 0.01
+    - _Fog_Height_Fade_Contrast: 2.39
+    - _Fog_Height_Fade_Height: 200
+    - _Fog_Rate: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Matallic_offon: 0
+    - _MeshHight: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalStrength: 0
+    - _OcclusionStrength: 0.5
+    - _Parallax: 0.02
+    - _PlantShadowOpen: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ShadowHeight: 0
+    - _ShadowOffsetX: 0
+    - _ShadowOffsetZ: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _Smoothness_offon: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _metalic: 0
+    m_Colors:
+    - _AO_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _AO_color: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Emisson_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Fog_Color: {r: 1, g: 0.6784314, b: 0.56078434, a: 0}
+    - _MainTex_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _OcclusionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ProGameOutDir: {r: -1.04, g: 1.9, b: 1.61, a: 0}
+    - _ShadowColor: {r: 0.83, g: 0.89, b: 0.96999997, a: 0.25}
+    - _WorldPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

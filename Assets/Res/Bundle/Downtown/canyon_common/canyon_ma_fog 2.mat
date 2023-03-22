@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: canyon_ma_fog 2
+  m_Shader: {fileID: 4800000, guid: a35d1f7b5313da04d8dabb3336970429, type: 3}
+  m_ValidKeywords:
+  - _MASKENABLE_RNOTALPHA
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1463b58c3b973bc4ab4a0b6d05ec6ef9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: 1463b58c3b973bc4ab4a0b6d05ec6ef9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ACESToneMapOn: 0
+    - _AlphaCutoff: 0.5
+    - _BaseMapColorOn: 0
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CtF: 8.09
+    - _CtN: 2.87
+    - _Cull: 1
+    - _Cutoff: 0.5
+    - _DestBlend: 10
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FarFogClip: 0.928
+    - _Foffset: -10.2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradientStrength: 1.98
+    - _Height: 0
+    - _MaskEnable: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NearFogClip: 0.55
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothStepMax: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _UVSec: 0
+    - _ZAlways: 4
+    - _ZWrite: 1
+    - __dirty: 0
+    - _color_int: 0.74
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.45934382, b: 0.21226418, a: 0}
+    - _Color0: {r: 1, g: 0, b: 0.22632456, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LerpColorA: {r: 1, g: 0.17788847, b: 0.036889452, a: 1}
+    - _LerpColorB: {r: 1, g: 0, b: 0.042311423, a: 1}
+  m_BuildTextureStacks: []

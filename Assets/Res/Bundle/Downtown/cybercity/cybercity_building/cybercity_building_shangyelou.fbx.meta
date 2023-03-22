@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 71ccab1cc3e65bf40a5f059f59a54627
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_01
+    second: {fileID: 2100000, guid: 39ac7ef1121c7f042bc77fd6acd43118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_02
+    second: {fileID: 2100000, guid: 29c94b02747ff4b4d9830c71923a7b0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_03
+    second: {fileID: 2100000, guid: 3b3ee8dbd8e33334aac409d0332eca21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_04
+    second: {fileID: 2100000, guid: f9c2ecc81d0ac6d4d83655cf5e6f3174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_05
+    second: {fileID: 2100000, guid: 661d771cea5e4134197a82fe6b41dc3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_06
+    second: {fileID: 2100000, guid: 39516ad0c8936da409d6d0d618ee301d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_07
+    second: {fileID: 2100000, guid: 738bd1f6600fdd64fb95457804438d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_08
+    second: {fileID: 2100000, guid: 4656650243cc0ec449c4838539914bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_09
+    second: {fileID: 2100000, guid: b1e4e957726bae24fa59631f781923d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_10
+    second: {fileID: 2100000, guid: a054ba96618e3ad4f859f022112b55f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_11
+    second: {fileID: 2100000, guid: 5a3bce9f116a261448d2807793c01a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_12
+    second: {fileID: 2100000, guid: 289e97653b16fd84a92c49a6277e639e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_13
+    second: {fileID: 2100000, guid: 89047aed0453c2e4090f0aaafc20fae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_14
+    second: {fileID: 2100000, guid: bad327cfd56c2a64fa33f2e0e7027763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_15
+    second: {fileID: 2100000, guid: ad63c3eb9b3e2dd43a45779003419828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_16
+    second: {fileID: 2100000, guid: 5e4bc1a0f82edeb44b2f2e6677d2cc4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_17
+    second: {fileID: 2100000, guid: 3e056cf18bc67574dbf4be0169ba6f97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_18
+    second: {fileID: 2100000, guid: 60158e32204fab14d9d4be35b159f720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_19
+    second: {fileID: 2100000, guid: 77394cb7a06b57f4a9b7ad3728a63b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cybercity_building_shangyelou_20
+    second: {fileID: 2100000, guid: ebd70eff5944445418e7e8b9a3836b3a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

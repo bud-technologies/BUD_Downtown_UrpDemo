@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &206333081907209009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 206333081907209167}
+  - component: {fileID: 206333081907209008}
+  m_Layer: 0
+  m_Name: canyon_stone_pre_shitou_007
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &206333081907209167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206333081907209009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.146982, y: 16.42904, z: -0.84189606}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 206333082034234016}
+  - {fileID: 206333082805939598}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &206333081907209008
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206333081907209009}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.2409506, y: 0, z: 0.4463029}
+  m_Size: 18.946072
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.4962778
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4188540567155461712}
+    - renderer: {fileID: 882899568158114009}
+  - screenRelativeHeight: 0.0071
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7590351644626694771}
+    - renderer: {fileID: 4919880385803272549}
+  m_Enabled: 1
+--- !u!1001 &5574261947159202779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 206333081907209167}
+    m_Modifications:
+    - target: {fileID: 5730491246890837588, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_Name
+      value: canyon_fbx_shitou_007_002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.728113
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8926057
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+--- !u!4 &206333082805939598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5730491246890837589, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+  m_PrefabInstance: {fileID: 5574261947159202779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &882899568158114009 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4691468573679274754, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+  m_PrefabInstance: {fileID: 5574261947159202779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4919880385803272549 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 656730125711280830, guid: 73744786169e58d46b0ef45d963a9cee, type: 3}
+  m_PrefabInstance: {fileID: 5574261947159202779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8724712905695542471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 206333081907209167}
+    m_Modifications:
+    - target: {fileID: 8919769327619563110, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_Name
+      value: canyon_fbx_shitou_007_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+--- !u!4 &206333082034234016 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8919769327619563111, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+  m_PrefabInstance: {fileID: 8724712905695542471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4188540567155461712 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4842714704791138967, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+  m_PrefabInstance: {fileID: 8724712905695542471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7590351644626694771 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1171552400532115124, guid: 97c7cde240d3345438df11613afe5a42, type: 3}
+  m_PrefabInstance: {fileID: 8724712905695542471}
+  m_PrefabAsset: {fileID: 0}
