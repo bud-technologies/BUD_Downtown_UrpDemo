@@ -858,8 +858,7 @@ MonoBehaviour:
   moonOrbit: {fileID: 376513915874413512}
   weatherController: {fileID: 376513914472543714}
   updateGlobalIllumination: 0
-  skyProfileTransitionPrefab: {fileID: 8245424314653915319, guid: 9a1a39170bd874c5b8f4850cec0df3e4,
-    type: 3}
+  skyProfileTransitionPrefab: {fileID: 8245424314653915319, guid: 9a1a39170bd874c5b8f4850cec0df3e4, type: 3}
 --- !u!114 &376513915932083433
 MonoBehaviour:
   m_ObjectHideFlags: 0
