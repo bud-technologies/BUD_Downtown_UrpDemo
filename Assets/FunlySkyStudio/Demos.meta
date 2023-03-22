@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 5737f86802770854a988f317baaa274c
+guid: 94d212a1390be42ff9a59483ef8ccb84
+labels:
+- SkyStudioURPDemos
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
