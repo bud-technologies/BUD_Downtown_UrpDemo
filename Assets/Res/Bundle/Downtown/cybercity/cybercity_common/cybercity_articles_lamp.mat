@@ -11,6 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 9b4f22afac777be4194beb79e41e4556, type: 3}
   m_ValidKeywords:
   - AOCOLORSET_COLOR
+  - _EMISSION_MAP
   - _NORMAL_ON
   m_InvalidKeywords:
   - ENABLE_HQ_OFF
@@ -20,8 +21,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -133,7 +135,7 @@ Material:
     - _GlossyReflections: 0
     - _Matallic_offon: 1
     - _MeshHight: 0
-    - _Metallic: 1
+    - _Metallic: 0.192
     - _NormalStrength: 1
     - _Normal_int: 1
     - _OcclusionStrength: 0.5
@@ -144,7 +146,7 @@ Material:
     - _ShadowHeight: 0
     - _ShadowOffsetX: 0
     - _ShadowOffsetZ: 0
-    - _Smoothness: 0.73
+    - _Smoothness: 0.163
     - _SmoothnessTextureChannel: 0
     - _Smoothness_offon: 1
     - _SpecularHighlights: 1

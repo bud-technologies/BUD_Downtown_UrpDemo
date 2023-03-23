@@ -11,6 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 9b4f22afac777be4194beb79e41e4556, type: 3}
   m_ValidKeywords:
   - AOCOLORSET_COLOR
+  - _ALPHATEST_ON
   - _NORMAL_ON
   m_InvalidKeywords:
   - ENABLE_HQ_OFF
@@ -20,8 +21,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -112,7 +114,7 @@ Material:
     - ENABLE_HQ: 0
     - _AO: 1
     - _AO_offon: 1
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BlendOp: 0

@@ -358,7 +358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (5)
+      value: cybercity_plant_001_(5)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -432,7 +432,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (9)
+      value: cybercity_plant_001_(9)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -506,7 +506,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (4)
+      value: cybercity_plant_001_(4)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -580,7 +580,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (10)
+      value: cybercity_plant_001_(10)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -654,7 +654,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (3)
+      value: cybercity_plant_001_(3)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -802,7 +802,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (1)
+      value: cybercity_plant_001_(1)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -876,7 +876,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (6)
+      value: cybercity_plant_001_(6)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder
@@ -950,7 +950,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7243508717627311097, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_Name
-      value: cybercity_plant_001 (2)
+      value: cybercity_plant_001_(2)
       objectReference: {fileID: 0}
     - target: {fileID: 8056320027888933187, guid: 5870bab2f86a22843bc21f70d0564066, type: 3}
       propertyPath: m_RootOrder

@@ -21,10 +21,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: cybercity_building_subway_004_03_3
-  m_Shader: {fileID: 4800000, guid: 9b4f22afac777be4194beb79e41e4556, type: 3}
-  m_ValidKeywords:
-  - AOCOLORSET_COLOR
+  m_Shader: {fileID: 4800000, guid: 680a2bd48acfdba46a02544ce9959d1f, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords:
+  - AOCOLORSET_COLOR
   - ENABLE_HQ_OFF
   - _AO_OFFON_ON
   m_LightmapFlags: 4
@@ -130,6 +130,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
+    - _CullMode: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1

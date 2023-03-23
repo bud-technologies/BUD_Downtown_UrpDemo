@@ -16,9 +16,6 @@ Material:
   - _NORMAL_ON
   m_InvalidKeywords:
   - ENABLE_HQ_OFF
-  - _AO_OFFON_ON
-  - _MATALLIC_OFFON_ON
-  - _SMOOTHNESS_OFFON_ON
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

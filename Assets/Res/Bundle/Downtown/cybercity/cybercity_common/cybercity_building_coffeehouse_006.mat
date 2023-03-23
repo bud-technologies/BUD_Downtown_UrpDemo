@@ -21,13 +21,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: cybercity_building_coffeehouse_006
-  m_Shader: {fileID: 4800000, guid: 81e25b06803bf0844a079d8fd473cd0c, type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: 4800000, guid: 9d165aad860fb0045b26c63dd2009f79, type: 3}
+  m_ValidKeywords:
+  - _BASEMAP_COLOR
+  - _FRESNEL_HALFLIGHT
+  - _REFLECT_CUBE_UNITY
+  - _REFRACT_UNITY
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
@@ -82,6 +86,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -107,8 +123,11 @@ Material:
     - _Alpha: 0.582
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
+    - _BASEMAP: 1
     - _Blend: 0
     - _BumpScale: 1
+    - _ChannelSplittingOn: 0
+    - _ChannelSplittingScale: 0.03
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _CubeMapDrit_Power: 5.12
@@ -119,18 +138,28 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _EnvironmentReflections: 1
+    - _FRESNEL: 2
     - _F_Bias: 0
     - _F_Power: 1.22
     - _F_Scale: 0.156
+    - _FresnelAdd: 0
+    - _FresnelPower: 4.04
+    - _FresnelScale: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 3
+    - _NormalOn: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
+    - _REFLECT_CUBE: 1
+    - _REFRACT: 1
     - _ReceiveShadows: 1
+    - _ReflectScale: 2.88
+    - _RefractScale: 0
+    - _Refractive: 1
     - _Roughness: 0.66
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -141,9 +170,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.4716981, g: 0.2959238, b: 0.46942025, a: 0.79607844}
+    - _BaseColor: {r: 1.2627451, g: 0.7921569, b: 1.2627451, a: 0.65882355}
     - _Color: {r: 1, g: 0.9184108, b: 0.67364293, a: 0.2654545}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RefractColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

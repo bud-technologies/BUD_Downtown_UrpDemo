@@ -5391,7 +5391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 749072830958443526}
   m_Layer: 0
-  m_Name: cybercity_articles_ground_Sidewalk_gc01
+  m_Name: cybercity_articles_ground_sidewalk_gc01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

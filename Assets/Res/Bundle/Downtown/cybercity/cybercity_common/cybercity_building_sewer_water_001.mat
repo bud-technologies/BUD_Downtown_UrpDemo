@@ -366,7 +366,7 @@ Material:
     - _A_Base_Color: {r: 1, g: 1, b: 1, a: 0}
     - _B_AO_Color: {r: 0, g: 0, b: 0, a: 0}
     - _B_Base_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor: {r: 0.25098038, g: 0.6431373, b: 0.45804948, a: 1}
+    - _BaseColor: {r: 0.24510503, g: 0.6415094, b: 0.45519933, a: 1}
     - _BaseMapSpeed: {r: 0.05, g: -0.05, b: 0, a: 0}
     - _BumpMapASpeed: {r: 0, g: -0.02, b: 0, a: 0}
     - _BumpMapBSpeed: {r: 0.05, g: -0.05, b: 0, a: 0}
@@ -385,7 +385,7 @@ Material:
     - _MainTex_Color: {r: 0.7248576, g: 0.8584906, b: 0.75659543, a: 0}
     - _Mat_Cap_BrightSide: {r: 1, g: 1, b: 1, a: 0}
     - _Mat_Cap_DarkSide: {r: 1, g: 1, b: 1, a: 0}
-    - _ReflectColor: {r: 0.20131719, g: 0.49056602, b: 0.3314792, a: 0.5019608}
+    - _ReflectColor: {r: 0.2627451, g: 0.67058825, b: 0.39926454, a: 0.5019608}
     - _RimColor: {r: 1, g: 1, b: 1, a: 0}
     - _SSS_Back: {r: 0.33333337, g: 0.8099694, b: 1, a: 0}
     - _SSS_Base: {r: 0, g: 0, b: 0, a: 0}

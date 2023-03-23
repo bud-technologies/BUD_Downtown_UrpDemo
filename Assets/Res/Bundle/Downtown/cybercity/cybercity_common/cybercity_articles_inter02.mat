@@ -8,8 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: cybercity_articles_inter02
-  m_Shader: {fileID: 4800000, guid: 81e25b06803bf0844a079d8fd473cd0c, type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: 4800000, guid: 9d165aad860fb0045b26c63dd2009f79, type: 3}
+  m_ValidKeywords:
+  - _BASEMAP_COLOR
+  - _FRESNEL_HALFLIGHT
+  - _REFLECT_CUBE_UNITY
+  - _REFRACT_UNITY
   m_InvalidKeywords:
   - _AO_OFFON_ON
   - _MATALLIC_OFFON_ON
@@ -79,6 +83,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ReflectMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -114,8 +130,11 @@ Material:
     - _Alpha: 0.653
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
+    - _BASEMAP: 1
     - _Blend: 0
     - _BumpScale: 1
+    - _ChannelSplittingOn: 0
+    - _ChannelSplittingScale: 0.03
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Colo_int: 1
@@ -128,9 +147,13 @@ Material:
     - _DstBlend: 0
     - _Emisson_int: 0.21
     - _EnvironmentReflections: 1
+    - _FRESNEL: 2
     - _F_Bias: 0
     - _F_Power: 0.99
     - _F_Scale: 1
+    - _FresnelAdd: 0.021
+    - _FresnelPower: 4
+    - _FresnelScale: 1
     - _G_opposition_offon: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -138,12 +161,18 @@ Material:
     - _MainTex_apopacity: 0
     - _Matallic_offon: 1
     - _Metallic: 0
+    - _NormalOn: 0
     - _NormalStrength: 1
     - _Normal_int: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
+    - _REFLECT_CUBE: 1
+    - _REFRACT: 1
     - _ReceiveShadows: 1
+    - _ReflectScale: 2.88
+    - _RefractScale: 1
+    - _Refractive: 0.642
     - _Roughness: 0.66
     - _Smoothness: 0.81
     - _SmoothnessTextureChannel: 0
@@ -161,12 +190,14 @@ Material:
     - _rim_scale: 1
     m_Colors:
     - _AO_color: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor: {r: 0.59303963, g: 0.23137254, b: 1, a: 1}
+    - _BaseColor: {r: 1.5294378, g: 0.61450624, b: 2.6082377, a: 0.49019608}
     - _Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emisson_Color: {r: 1, g: 1, b: 1, a: 0}
     - _MainTex_Color: {r: 0.220274, g: 0.45977843, b: 0.62264144, a: 0.83137256}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RefractColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8813844456024587182

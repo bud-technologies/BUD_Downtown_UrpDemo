@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 8544697041423967060}
   - component: {fileID: 3075794411105331691}
   - component: {fileID: 4799698251136608064}
-  - component: {fileID: 8438154470830653151}
+  - component: {fileID: 8031140500050852882}
+  - component: {fileID: 5878370949692360936}
+  - component: {fileID: 2870598173999238219}
   m_Layer: 0
   m_Name: cybercity_building_baker_002_yupeng
   m_TagString: Untagged
@@ -82,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8438154470830653151
-MeshCollider:
+--- !u!65 &8031140500050852882
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,7 +94,32 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5281758909609741021, guid: 2ac7069608a14894e921e4a31147a3ef, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 6.171424, y: 0.12775993, z: 1.429985}
+  m_Center: {x: 0.0547404, y: 4.9467907, z: 8.231725}
+--- !u!65 &5878370949692360936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5407540630629872448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.171424, y: 0.2530713, z: 1.9183044}
+  m_Center: {x: 0.054740418, y: 5.3076124, z: 6.708041}
+--- !u!65 &2870598173999238219
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5407540630629872448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.171424, y: 1.6054635, z: 0.73711205}
+  m_Center: {x: 0.054740395, y: 6.2054524, z: 6.117445}

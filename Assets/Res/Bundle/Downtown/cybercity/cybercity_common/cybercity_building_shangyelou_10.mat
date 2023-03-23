@@ -130,7 +130,7 @@ Material:
     - _GlossyReflections: 1
     - _Matallic_offon: 0
     - _MeshHight: 0
-    - _Metallic: 1
+    - _Metallic: 0.223
     - _Mode: 0
     - _Normal_int: 1
     - _OcclusionStrength: 0
@@ -141,7 +141,7 @@ Material:
     - _ShadowHeight: 0
     - _ShadowOffsetX: 0
     - _ShadowOffsetZ: 0
-    - _Smoothness: 0.76
+    - _Smoothness: 0.411
     - _SmoothnessTextureChannel: 0
     - _Smoothness_offon: 1
     - _SpecularHighlights: 1

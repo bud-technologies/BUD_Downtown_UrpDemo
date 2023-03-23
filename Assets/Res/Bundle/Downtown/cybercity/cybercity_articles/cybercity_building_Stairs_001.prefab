@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7193413132818884026}
   - component: {fileID: 4913660737179373936}
   m_Layer: 0
-  m_Name: cybercity_building_Stairs_001
+  m_Name: cybercity_building_stairs_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

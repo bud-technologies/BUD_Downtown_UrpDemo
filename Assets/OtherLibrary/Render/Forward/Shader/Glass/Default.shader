@@ -7,7 +7,7 @@ Shader "NewRender/Glass/Default"
 		[KeywordEnum(Off,Color,AlphaTest,ColorAlphaTest)] _BASEMAP("BaseMap类型",Int) = 0
 		_Cutoff("Alpha Cutoff", Range(0.0, 1.0)) = 0.5
 		_BaseMap ("Base Texture", 2D) = "white" {}
-		_BaseColor("RGB:颜色 A:透明度", Color) = (1,1,1,1)
+		[HDR]_BaseColor("RGB:颜色 A:透明度", Color) = (1,1,1,1)
 
 		[MaterialToggle(_NORMAL_ON)] _NormalOn  ("Normal开启", float) = 0
 		[NoScaleOffset][Normal]_BumpMap("法线贴图", 2D) = "bump" {}
@@ -40,7 +40,7 @@ Shader "NewRender/Glass/Default"
 	SubShader
 	{
 
-		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent+100" "RenderPipeline" = "UniversalPipeline"}
+		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" "RenderPipeline" = "UniversalPipeline"}
 
 		HLSLINCLUDE
 
@@ -79,7 +79,7 @@ Shader "NewRender/Glass/Default"
         {
             Tags { "LightMode" = "SRPDefaultUnlit"}
 
-            ZWrite On
+            ZWrite Off
             Cull Front
             ColorMask 0
 
@@ -119,6 +119,9 @@ Shader "NewRender/Glass/Default"
 		Pass
 		{
 			Tags {"LightMode"="UniversalForward"}
+
+			ZWrite Off
+			Blend SrcAlpha OneMinusSrcAlpha
 
 			HLSLPROGRAM
 			#pragma vertex GlassVert
@@ -299,85 +302,85 @@ Shader "NewRender/Glass/Default"
 
 				half4 opaqueTex = half4(0,0,0,1);
 
-				#if defined(_REFRACT_UNITY) || defined(_REFRACT_CUSTOM_2D)
-					#if defined(_CHANNELSPLITTING_ON)
-						float3 refractVectorR = refract(-viewDirWS,normalWS,_Refractive);
-						float DotRV_R = dot(-viewDirWS,refractVectorR);
-						DotRV_R=saturate(1.0-DotRV_R);
-						float3 refractVectorG = refract(-viewDirWS,normalWS,_Refractive+_Refractive*_ChannelSplittingScale);
-						float DotRV_G = dot(-viewDirWS,refractVectorG);
-						DotRV_G=saturate(1.0-DotRV_G);
-						float3 refractVectorB = refract(-viewDirWS,normalWS,_Refractive-_Refractive*_ChannelSplittingScale);
-						float DotRV_B = dot(-viewDirWS,refractVectorB);
-						DotRV_B=saturate(1.0-DotRV_B);
-						float3 refractVectorViewR = TransformWorldToViewDir(refractVectorR);
-						float3 refractVectorViewG = TransformWorldToViewDir(refractVectorG);
-						float3 refractVectorViewB = TransformWorldToViewDir(refractVectorB);
-						float2 screenUV=input.screenUV.xy/input.screenUV.w;
-						float dis = length(screenUV-float2(0.5,0.5));
-						dis = saturate(1.0-smoothstep(0,0.5,dis));
-						float2 opaqueUV_R = screenUV+dis*refractVectorViewR.xy*DotRV_R*_RefractScale;
-						float2 opaqueUV_G = screenUV+dis*refractVectorViewG.xy*DotRV_G*_RefractScale;
-						float2 opaqueUV_B = screenUV+dis*refractVectorViewB.xy*DotRV_B*_RefractScale;
-						#if defined(_REFRACT_UNITY)
-							half opaqueTex_R = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV_R).r;
-							half opaqueTex_G = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV_G).g;
-							half opaqueTex_B = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV_B).b;
-							opaqueTex.rgb=half3(opaqueTex_R,opaqueTex_G,opaqueTex_B);
-						#elif defined(_REFRACT_CUSTOM_2D)
-							half opaqueTex_R = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV_R).r;
-							half opaqueTex_G = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV_G).g;
-							half opaqueTex_B = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV_B).b;
-							opaqueTex.rgb=half3(opaqueTex_R,opaqueTex_G,opaqueTex_B);
-						#endif
-					#else
-						float3 refractVector = refract(-viewDirWS,normalWS,_Refractive);
-						float DotRV = dot(-viewDirWS,refractVector);
-						DotRV=saturate(1.0-DotRV);
-						float3 refractVectorView = TransformWorldToViewDir(refractVector);
-						float2 screenUV=input.screenUV.xy/input.screenUV.w;
-						float2 opaqueUV = screenUV;
-						float dis = length(screenUV-float2(0.5,0.5));
-						dis = saturate(1.0-smoothstep(0,0.5,dis));
-						opaqueUV=opaqueUV+dis*refractVectorView.xy*DotRV*_RefractScale;
-						#if defined(_REFRACT_UNITY)
-							opaqueTex = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV);
-						#elif defined(_REFRACT_CUSTOM_2D)
-							opaqueTex = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV);
-						#endif
-					#endif
-				#elif defined(_REFRACT_CUSTOM_CUBE)
-					#if defined(_CHANNELSPLITTING_ON)
-						float3 refractVectorR = refract(-viewDirWS,normalWS,_Refractive);
-						float3 refractVectorG = refract(-viewDirWS,normalWS,_Refractive+_Refractive*_ChannelSplittingScale);
-						float3 refractVectorB = refract(-viewDirWS,normalWS,_Refractive-_Refractive*_ChannelSplittingScale);
-						//
-						half4 refractColorR = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVectorR);
-						#if !defined(UNITY_USE_NATIVE_HDR)
-							refractColorR.rgb = DecodeHDREnvironment(refractColorR, unity_SpecCube0_HDR);
-						#endif
-						half4 refractColorG = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVectorG);
-						#if !defined(UNITY_USE_NATIVE_HDR)
-							refractColorG.rgb = DecodeHDREnvironment(refractColorG, unity_SpecCube0_HDR);
-						#endif
-						half4 refractColorB = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVectorB);
-						#if !defined(UNITY_USE_NATIVE_HDR)
-							refractColorB.rgb = DecodeHDREnvironment(refractColorB, unity_SpecCube0_HDR);
-						#endif
-						opaqueTex.rgb = half3(refractColorR.r,refractColorG.g,refractColorB.b);
-					#else
-						float3 refractVector = refract(-viewDirWS,normalWS,_Refractive);
-						half4 refractColor = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVector);
-						#if !defined(UNITY_USE_NATIVE_HDR)
-							refractColor.rgb = DecodeHDREnvironment(refractColor, unity_SpecCube0_HDR);
-						#endif
-						opaqueTex.rgb = refractColor.rgb;
-					#endif
-				#endif
-				opaqueTex= opaqueTex*_RefractColor;
+				// #if defined(_REFRACT_UNITY) || defined(_REFRACT_CUSTOM_2D)
+				// 	#if defined(_CHANNELSPLITTING_ON)
+				// 		float3 refractVectorR = refract(-viewDirWS,normalWS,_Refractive);
+				// 		float DotRV_R = dot(-viewDirWS,refractVectorR);
+				// 		DotRV_R=saturate(1.0-DotRV_R);
+				// 		float3 refractVectorG = refract(-viewDirWS,normalWS,_Refractive+_Refractive*_ChannelSplittingScale);
+				// 		float DotRV_G = dot(-viewDirWS,refractVectorG);
+				// 		DotRV_G=saturate(1.0-DotRV_G);
+				// 		float3 refractVectorB = refract(-viewDirWS,normalWS,_Refractive-_Refractive*_ChannelSplittingScale);
+				// 		float DotRV_B = dot(-viewDirWS,refractVectorB);
+				// 		DotRV_B=saturate(1.0-DotRV_B);
+				// 		float3 refractVectorViewR = TransformWorldToViewDir(refractVectorR);
+				// 		float3 refractVectorViewG = TransformWorldToViewDir(refractVectorG);
+				// 		float3 refractVectorViewB = TransformWorldToViewDir(refractVectorB);
+				// 		float2 screenUV=input.screenUV.xy/input.screenUV.w;
+				// 		float dis = length(screenUV-float2(0.5,0.5));
+				// 		dis = saturate(1.0-smoothstep(0,0.5,dis));
+				// 		float2 opaqueUV_R = screenUV+dis*refractVectorViewR.xy*DotRV_R*_RefractScale;
+				// 		float2 opaqueUV_G = screenUV+dis*refractVectorViewG.xy*DotRV_G*_RefractScale;
+				// 		float2 opaqueUV_B = screenUV+dis*refractVectorViewB.xy*DotRV_B*_RefractScale;
+				// 		#if defined(_REFRACT_UNITY)
+				// 			half opaqueTex_R = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV_R).r;
+				// 			half opaqueTex_G = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV_G).g;
+				// 			half opaqueTex_B = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV_B).b;
+				// 			opaqueTex.rgb=half3(opaqueTex_R,opaqueTex_G,opaqueTex_B);
+				// 		#elif defined(_REFRACT_CUSTOM_2D)
+				// 			half opaqueTex_R = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV_R).r;
+				// 			half opaqueTex_G = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV_G).g;
+				// 			half opaqueTex_B = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV_B).b;
+				// 			opaqueTex.rgb=half3(opaqueTex_R,opaqueTex_G,opaqueTex_B);
+				// 		#endif
+				// 	#else
+				// 		float3 refractVector = refract(-viewDirWS,normalWS,_Refractive);
+				// 		float DotRV = dot(-viewDirWS,refractVector);
+				// 		DotRV=saturate(1.0-DotRV);
+				// 		float3 refractVectorView = TransformWorldToViewDir(refractVector);
+				// 		float2 screenUV=input.screenUV.xy/input.screenUV.w;
+				// 		float2 opaqueUV = screenUV;
+				// 		float dis = length(screenUV-float2(0.5,0.5));
+				// 		dis = saturate(1.0-smoothstep(0,0.5,dis));
+				// 		opaqueUV=opaqueUV+dis*refractVectorView.xy*DotRV*_RefractScale;
+				// 		#if defined(_REFRACT_UNITY)
+				// 			opaqueTex = SAMPLE_TEXTURE2D(_CameraOpaqueTexture, sampler_ScreenTextures_linear_repeat, opaqueUV);
+				// 		#elif defined(_REFRACT_CUSTOM_2D)
+				// 			opaqueTex = SAMPLE_TEXTURE2D(_RefractMap, sampler_ScreenTextures_linear_repeat, opaqueUV);
+				// 		#endif
+				// 	#endif
+				// #elif defined(_REFRACT_CUSTOM_CUBE)
+				// 	#if defined(_CHANNELSPLITTING_ON)
+				// 		float3 refractVectorR = refract(-viewDirWS,normalWS,_Refractive);
+				// 		float3 refractVectorG = refract(-viewDirWS,normalWS,_Refractive+_Refractive*_ChannelSplittingScale);
+				// 		float3 refractVectorB = refract(-viewDirWS,normalWS,_Refractive-_Refractive*_ChannelSplittingScale);
+				// 		//
+				// 		half4 refractColorR = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVectorR);
+				// 		#if !defined(UNITY_USE_NATIVE_HDR)
+				// 			refractColorR.rgb = DecodeHDREnvironment(refractColorR, unity_SpecCube0_HDR);
+				// 		#endif
+				// 		half4 refractColorG = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVectorG);
+				// 		#if !defined(UNITY_USE_NATIVE_HDR)
+				// 			refractColorG.rgb = DecodeHDREnvironment(refractColorG, unity_SpecCube0_HDR);
+				// 		#endif
+				// 		half4 refractColorB = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVectorB);
+				// 		#if !defined(UNITY_USE_NATIVE_HDR)
+				// 			refractColorB.rgb = DecodeHDREnvironment(refractColorB, unity_SpecCube0_HDR);
+				// 		#endif
+				// 		opaqueTex.rgb = half3(refractColorR.r,refractColorG.g,refractColorB.b);
+				// 	#else
+				// 		float3 refractVector = refract(-viewDirWS,normalWS,_Refractive);
+				// 		half4 refractColor = SAMPLE_TEXTURECUBE(_RefractCubeMap, sampler_ScreenTextures_linear_clamp, refractVector);
+				// 		#if !defined(UNITY_USE_NATIVE_HDR)
+				// 			refractColor.rgb = DecodeHDREnvironment(refractColor, unity_SpecCube0_HDR);
+				// 		#endif
+				// 		opaqueTex.rgb = refractColor.rgb;
+				// 	#endif
+				// #endif
+				// opaqueTex= opaqueTex*_RefractColor;
 
 				half4 finishColor = opaqueTex;
-				finishColor.a = 1.0;
+				finishColor.a = 1.0 * _BaseColor.a;
 				finishColor.rgb = 	finishColor.rgb+fresnelColor;
 
 				#if defined(_BASEMAP_COLOR) || defined(_BASEMAP_COLORALPHATEST)
